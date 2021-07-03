@@ -1,0 +1,106 @@
+/********** Base styles **********/
+body {
+	background-color: #ababab85;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align:  center;
+}
+
+section {
+  position: relative;
+  border: 1px solid black;
+  height: 200px;
+}
+a {
+	font-size: 0.8em;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.box  {
+  	text-align: center;
+  	box-sizing: border-box;
+  	float: left;
+  	margin-bottom: 1%;
+  	margin-right: auto;
+  	margin-left: auto;
+  }
+
+.box > section {
+	margin:  0% 5px;
+}
+
+.box-title {
+	text-align: center;
+	box-sizing: border-box;
+	position: absolute;
+	top:  0%;
+	left: 50%;
+	width: 50%;
+	height: auto;
+	padding: 10px;
+	margin-top: 0px;
+	border-style: solid;
+	border-width: 0 0 1px 1px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.box-content {
+	box-sizing: border-box;
+	position: absolute;
+	top: 30%;
+	left: 10px;
+	height: 120px;
+	margin-right: 10px;
+	text-align: left;
+	overflow: auto;
+}
+
+#html-title {
+	background-color: orange;
+}
+
+#css-title {
+	background-color: royalblue;
+}
+
+#js-title {
+	background-color: yellow;
+}
+
+
+/********** Desktop Version only **********/
+@media (min-width: 992px) {
+  .container {
+  	margin-top: 5%;
+  }
+  h1 {
+  	font-size: 250%;
+  }
+  .box  {
+  	margin-top: 5%;
+  	width: 33.33%;
+  }
+}
+
+
+/********** Tablet view only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .box {
+  	width: 50%;
+  }
+
+  #last-box {
+  	width: 100%;
+  }
+}
+
+
+/********** Mobile view only **********/
+@media (max-width: 767px) {
+  .box {
+  	width: 100%;
+  }
+}
