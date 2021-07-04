@@ -1,0 +1,96 @@
+/********** Base styles **********/
+
+body {
+    font-family: Comic Sans MS, Arial, Helvetica, sans-serif
+}
+
+.row{
+    padding: 10px
+}
+
+/*Header*/
+.navbar-default .navbar-brand {
+    color: #020204cc;
+    height: 60px;
+    line-height: 30px
+}
+a.navbar-brand {
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+
+/*Dropdown menu*/
+#dropdown-chick {
+    background-color: #f7af45;
+}
+
+#dropdown-beef {
+    background-color: #f9d423;
+}
+
+#dropdown-sushi {
+    background-color: #12d017;
+}
+/*End Dropdown menu*/
+
+/*End Header*/
+
+/*body*/
+
+/*title*/
+
+.box-title {
+    font-size: 20px;
+    font-weight: 900;
+    margin: 5px auto 15px;
+}
+
+/*end title*/
+
+#menu-title {
+    margin: 0px auto 30px;
+}
+
+.menu-box {
+    margin-bottom: 25px;
+}
+
+#chick-menu {
+    margin-top: 0px;
+    background-color: #f7af45;
+}
+
+#beef-menu {
+    margin-top: 0px;
+    background-color:  #f9d423;
+}
+
+#sushi-menu {
+    margin-top: 0px;
+    background-color: #12d017;
+}
+
+/*box-content*/
+
+/*end box-content*/
+
+/*End body*/
+
+
+
+/********** Desktop Version only **********/
+
+
+/********** Tablet view only **********/
+
+/********** Mobile view only **********/
+@media (max-width: 767px) {
+    .row{
+        padding: 0px 15%;
+    }
+    .box-content{
+        padding: 0px 10px;
+    }
+}
+
